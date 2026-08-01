@@ -6,5 +6,8 @@ function capitalize(word) {
 function whisper(word) {
   return word.toLowerCase();
 }
+function shout(word) {
+  return word.toUpperCase();
+}
 
-export { capitalize,whisper };
+export { capitalize, whisper, shout };
